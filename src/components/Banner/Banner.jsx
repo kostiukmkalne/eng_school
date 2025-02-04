@@ -1,11 +1,7 @@
 import "./Banner.scss";
 import { Button } from "../Button/Button";
 import { useTranslation } from "react-i18next";
-// import { imgItems } from "./dataImg.js";
-import arrdown from "../../assets/arrowDown.svg";
-import stars from "../../assets/stars.svg";
-import video from "../../assets/video/presentation.MP4";
-import videoImg from "../../assets/lucia.png";
+import { imgItems } from "./dataImg.js";
 
 export const Banner = () => {
   const { t } = useTranslation();
@@ -22,7 +18,11 @@ export const Banner = () => {
       <div className="banner">
         <div className="banner__titles">
           <div className="banner__client">
-            <img src={stars} className="banner__stars-img" alt="stars-img" />
+            <img
+              src={imgItems.stars}
+              className="banner__stars-img"
+              alt="stars-img"
+            />
             <h6 className="banner__text">
               <span className="banner__text-title">{t("banner.title")}</span>
             </h6>
@@ -57,7 +57,11 @@ export const Banner = () => {
           onClick={handleScrollToForm}
         >
           {t("banner.button")}
-          <img src={arrdown} className="banner__batton-img" alt="arrow-down" />
+          <img
+            src={imgItems.arrdown}
+            className="banner__batton-img"
+            alt="arrow-down"
+          />
         </Button>
       </div>
 
@@ -67,8 +71,8 @@ export const Banner = () => {
           // autoPlay
           // muted
           className="video__size"
-          src={video}
-          poster={videoImg}
+          src={imgItems.video}
+          poster={imgItems.videoImg}
         />
       </div>
     </div>
