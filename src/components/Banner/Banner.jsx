@@ -2,6 +2,7 @@ import "./Banner.scss";
 import { Button } from "../Button/Button";
 import { useTranslation } from "react-i18next";
 import { imgItems } from "./dataImg.js";
+import video from "../../assets/video/presentation.mp4";
 
 export const Banner = () => {
   const { t } = useTranslation();
@@ -71,7 +72,7 @@ export const Banner = () => {
           // autoPlay
           // muted
           className="video__size"
-          src={imgItems.video}
+          src={video}
           poster={imgItems.videoImg}
         />
       </div>
