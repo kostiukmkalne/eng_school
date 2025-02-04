@@ -1,0 +1,97 @@
+@import url(../../utils/mixins.scss);
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__logo {
+    display: block;
+
+    transition: transform 0.8s cubic-bezier(0.25, 0.1, 0.25, 1);
+
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+
+  &__nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+    position: relative;
+  }
+
+  &__toggle-arrow {
+    background-color: transparent;
+    border: none;
+    color: #0077b6;
+    cursor: pointer;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+// @import url(../../utils/mixins.scss);
+
+// .footer {
+//   display: flex;
+//   justify-content: space-between;
+//   align-items: center;
+//   flex-wrap: wrap;
+//   padding: 20px;
+
+//   @media (max-width: 768px) {
+//     justify-content: center; // Центруємо елементи
+//     gap: 20px;
+//   }
+
+//   @media (max-width: 480px) {
+//     flex-direction: column; // На мобільних елементи йдуть один під одним
+//     align-items: flex-start; // Вирівнюємо по лівому краю
+//     gap: 10px;
+//   }
+
+//   &__logo {
+//     display: block;
+//     transition: transform 0.8s cubic-bezier(0.25, 0.1, 0.25, 1);
+
+//     &:hover {
+//       transform: scale(1.1);
+//     }
+
+//     @media (max-width: 480px) {
+//       width: 100%; // Розтягуємо логотип на всю ширину
+//     }
+//   }
+
+//   &__nav {
+//     display: flex;
+//     align-items: center;
+//     justify-content: flex-end;
+//     gap: 20px;
+
+//     @media (max-width: 768px) {
+//       justify-content: center; // Центруємо навігацію
+//     }
+
+//     @media (max-width: 480px) {
+//       width: 100%; // Розтягуємо навігацію на всю ширину
+//       justify-content: flex-start; // Вирівнюємо по лівому краю
+//     }
+//   }
+
+//   &__toggle-arrow {
+//     background-color: transparent;
+//     border: none;
+//     color: #0077b6;
+//     cursor: pointer;
+
+//     &:hover {
+//       text-decoration: underline;
+//     }
+//   }
+// }

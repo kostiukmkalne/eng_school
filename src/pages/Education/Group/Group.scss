@@ -1,0 +1,143 @@
+.education__group {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  gap: 40px;
+
+  &-format {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 40px;
+    background-color: #f2f2f2;
+    color: #000;
+    border-radius: 8px;
+    margin-bottom: 32px;
+  }
+
+  &-title {
+    margin-bottom: 16px;
+    font-weight: bold;
+  }
+
+  &-subtitle {
+    font-size: 0.6em;
+    color: #888;
+    margin-bottom: 16px;
+  }
+
+  &-benefits {
+    display: flex;
+    flex-direction: column;
+    color: #000;
+    border-radius: 8px;
+    justify-content: space-between;
+
+    hr {
+      margin: 10px 0;
+      border: 1px solid #c9c9c9;
+    }
+
+    &-parts {
+      display: flex;
+      align-items: center;
+
+      img {
+        width: 16px;
+        height: 16px;
+        margin-right: 8px;
+      }
+
+      h5 {
+        margin: 0;
+      }
+    }
+  }
+
+  &-details {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 16px;
+
+    &-staff {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+
+      &-img {
+        margin-bottom: 10px;
+      }
+    }
+  }
+
+  &-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 16px 16px;
+    border-radius: 8px;
+    margin-bottom: 26px;
+
+    &-discounts {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+  }
+
+  &__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .button {
+    width: 100%;
+    height: 48px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 8px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    background: linear-gradient(180deg, #9bc5e9, #e3f2ff 100%);
+    border: 1px solid #9bc5e9;
+    box-shadow: inset 0px -3px 0px #9bc5e9,
+                0px 1px 2px rgba(0, 0, 0, 0.05),
+                0px 4px 4px rgba(0, 0, 0, 0.04);
+    transition: all 0.3s ease;
+
+    &:hover {
+      background: linear-gradient(180deg, #8fb4d8, #d5e8f9 100%);
+      border: 1px solid #8fb4d8;
+      box-shadow: inset 0px -3px 0px #8fb4d8,
+                  0px 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    &.active {
+      background: linear-gradient(180deg, #78a7c8, #c8e2f7 100%); /* Активний фон */
+      border: 1px solid #78a7c8; /* Темніша рамка */
+      box-shadow: inset 0px -5px 0px #78a7c8,
+                  0px 4px 8px rgba(0, 0, 0, 0.2); /* Глибше заглиблення */
+    }
+  }
+
+  &-parts {
+    display: flex;
+    align-items: center;
+
+    img {
+      width: 16px;
+      height: 16px;
+      margin-right: 8px;
+    }
+
+    h5 {
+      margin: 0;
+    }
+  }
+}

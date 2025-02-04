@@ -1,0 +1,58 @@
+<svg width="94.000000" height="113.000000" viewBox="0 0 94 113" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<filter id="filter_59_1728_dd" x="0.000000" y="0.000000" width="94.000000" height="113.000000" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+			<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+			<feOffset dx="0" dy="1"/>
+			<feGaussianBlur stdDeviation="0.666667"/>
+			<feComposite in2="hardAlpha" operator="out" k2="-1" k3="1"/>
+			<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.051 0"/>
+			<feBlend mode="normal" in2="BackgroundImageFix" result="effect_dropShadow_1"/>
+			<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+			<feOffset dx="0" dy="4"/>
+			<feGaussianBlur stdDeviation="1.33333"/>
+			<feComposite in2="hardAlpha" operator="out" k2="-1" k3="1"/>
+			<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.039 0"/>
+			<feBlend mode="normal" in2="effect_dropShadow_1" result="effect_dropShadow_2"/>
+			<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+			<feOffset dx="0" dy="9"/>
+			<feGaussianBlur stdDeviation="1.66667"/>
+			<feComposite in2="hardAlpha" operator="out" k2="-1" k3="1"/>
+			<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.031 0"/>
+			<feBlend mode="normal" in2="effect_dropShadow_2" result="effect_dropShadow_3"/>
+			<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+			<feOffset dx="0" dy="16"/>
+			<feGaussianBlur stdDeviation="2"/>
+			<feComposite in2="hardAlpha" operator="out" k2="-1" k3="1"/>
+			<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.012 0"/>
+			<feBlend mode="normal" in2="effect_dropShadow_3" result="effect_dropShadow_4"/>
+			<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+			<feOffset dx="0" dy="25"/>
+			<feGaussianBlur stdDeviation="2.33333"/>
+			<feComposite in2="hardAlpha" operator="out" k2="-1" k3="1"/>
+			<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+			<feBlend mode="normal" in2="effect_dropShadow_4" result="effect_dropShadow_5"/>
+			<feBlend mode="normal" in="SourceGraphic" in2="effect_dropShadow_5" result="shape"/>
+			<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+			<feOffset dx="0" dy="-3"/>
+			<feGaussianBlur stdDeviation="0"/>
+			<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+			<feColorMatrix type="matrix" values="0 0 0 0 0.20392 0 0 0 0 0.25098 0 0 0 0 0.32941 0 0 0 0.2 0"/>
+			<feBlend mode="normal" in2="shape" result="effect_innerShadow_6"/>
+		</filter>
+		<linearGradient x1="47.000000" y1="1.000000" x2="47.000000" y2="81.000000" id="paint_linear_59_1728_0" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#FBFCFF"/>
+			<stop offset="1.000000" stop-color="#FFFFFF"/>
+		</linearGradient>
+	</defs>
+	<g filter="url(#filter_59_1728_dd)">
+		<rect id="Small - Dark Outline" rx="23.500000" width="79.000000" height="79.000000" transform="translate(7.500000 1.500000)" fill="url(#paint_linear_59_1728_0)" fill-opacity="1.000000"/>
+		<path id="Vector 2" d="M63.14 19.5L63.54 20.7C63.54 20.7 55.67 20.56 55.67 29.63C55.67 38.7 64.07 40.56 64.07 48.83C64.07 57.09 51.81 59.5 51.81 59.5L51.14 58.16C53.14 57.5 59.14 56.56 58.74 49.63C58.33 42.7 50.87 39.9 50.61 30.96C50.34 22.03 60.47 19.5 63.14 19.5Z" fill="#4D95D3" fill-opacity="1.000000" fill-rule="evenodd"/>
+		<path id="Vector 1" d="M42.2 19.5L42.6 20.7C42.6 20.7 34.73 20.56 34.73 29.63C34.73 38.7 43.13 40.56 43.13 48.83C43.13 57.09 30.87 59.5 30.87 59.5L30.2 58.16C32.2 57.5 38.2 56.56 37.8 49.63C37.4 42.7 29.93 39.9 29.67 30.96C29.4 22.03 39.53 19.5 42.2 19.5Z" fill="#4D95D3" fill-opacity="1.000000" fill-rule="evenodd"/>
+	</g>
+	<rect id="Small - Dark Outline" rx="23.500000" width="79.000000" height="79.000000" transform="translate(7.500000 1.500000)" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.000000" stroke-linejoin="bevel"/>
+	<rect id="Frame 427321695" rx="24.500000" width="81.000000" height="81.000000" transform="translate(6.500000 0.500000)" stroke="#D6D9DD" stroke-opacity="1.000000" stroke-width="1.000000"/>
+</svg>

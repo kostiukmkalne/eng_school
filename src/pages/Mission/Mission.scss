@@ -1,0 +1,36 @@
+.mission {
+  display: flex;
+  gap: 80px;
+
+  &__block {
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 232px;
+  }
+
+  &__title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 56px;
+  }
+
+  &__content {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+  }
+
+  &__img {
+    width: 24px;
+    height: 24px;
+  }
+
+  &__text {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #555;
+    max-width: 500px;
+  }
+}
+
+

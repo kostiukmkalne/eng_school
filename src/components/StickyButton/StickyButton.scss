@@ -1,0 +1,17 @@
+.sticky-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #9BC5E9;
+  color: #000;
+  padding: 15px;
+  border-radius: 30%;
+  font-size: 20px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+
+  &:hover {
+    background-color: #7AA0C0;
+  }
+}

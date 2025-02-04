@@ -1,0 +1,104 @@
+.banner-page {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url('../../assets/bannerBack.svg');
+}
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  text-align: left;
+
+  &__titles {
+    display: flex;
+    flex-direction: column;
+    margin-top: 140px;
+  }
+
+  &__client {
+    display: inline-flex;
+     margin-bottom: 10px;
+  }
+
+  &__stars-img {
+    width: 18px;
+    height: 18px;
+  }
+
+  &__text {
+    font-size: 16px;
+  }
+
+  &__main-title {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 12px;
+
+    &-color {
+      font-family: Pacifico;
+      font-size: 1.5em;
+      color: rgb(155, 197, 233);
+    }
+  }
+
+  &__explanation {
+    margin-bottom: 48px;
+
+    &-text-1 {
+      font-size: 14px;
+      font-weight: normal;
+    }
+
+    &-text-2,
+    &-text-3 {
+      font-weight: normal;
+      font-size: 14px;
+    }
+  }
+
+  .button {
+    width: 46%;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 8px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-bottom: 170px;
+    background: linear-gradient(180deg, #9bc5e9, #e3f2ff 100%); /* Градієнтний фон */
+    border: 1px solid #9bc5e9; /* Тонка рамка під градієнт */
+    box-shadow: inset 0px -3px 0px #9bc5e9,
+                0px 1px 2px rgba(0, 0, 0, 0.05),
+                0px 4px 4px rgba(0, 0, 0, 0.04); /* Стильна тінь */
+    transition: all 0.3s ease; /* Плавні переходи */
+
+    &:hover {
+      background: linear-gradient(180deg, #8fb4d8, #d5e8f9 100%); /* Трохи темніший фон */
+      border: 1px solid #8fb4d8; /* Підсвічення рамки */
+      box-shadow: inset 0px -3px 0px #8fb4d8,
+                  0px 2px 4px rgba(0, 0, 0, 0.1); /* Більша тінь */
+    }
+
+    &.active {
+      background: linear-gradient(180deg, #78a7c8, #c8e2f7 100%); /* Активний фон */
+      border: 1px solid #78a7c8; /* Темніша рамка */
+      box-shadow: inset 0px -5px 0px #78a7c8,
+                  0px 4px 8px rgba(0, 0, 0, 0.2); /* Глибше заглиблення */
+    }
+  }
+}
+
+.video {
+
+  &__size {
+    display: flex;
+    height: 540px;
+    width: 400px;
+    border-radius: 12px;
+  }
+}

@@ -1,0 +1,84 @@
+.consultation {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f9f9f9;
+  text-align: center;
+  background-image: url('../../assets/consultationBack.svg');
+  margin-bottom: 80px;
+
+  &__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 80px;
+  }
+
+  &__info {
+    display: flex;
+    align-items: center;
+
+    &-img {
+      height: 18px;
+      width: 18px;
+      height: auto;
+      margin-right: 10px;
+    }
+
+    &-title {
+      font-size: 16px;
+    }
+  }
+
+  &__main {
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+    gap: 10px;
+
+    &-title {
+      margin-top: 12px;
+      font-size: 2.5rem;
+
+      &-color {
+        font-family: Pacifico;
+        font-size: 2.5rem;
+        color: #9BC5E9;
+      }
+    }
+  }
+
+  .button {
+    width: 26%;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    background: linear-gradient(180deg, #9bc5e9, #e3f2ff 100%); /* Градієнтний фон */
+    border: 1px solid #9bc5e9; /* Тонка рамка під градієнт */
+    box-shadow: inset 0px -3px 0px #9bc5e9,
+                0px 1px 2px rgba(0, 0, 0, 0.05),
+                0px 4px 4px rgba(0, 0, 0, 0.04); /* Стильна тінь */
+    transition: all 0.3s ease; /* Плавні переходи */
+
+    &:hover {
+      background: linear-gradient(180deg, #8fb4d8, #d5e8f9 100%); /* Трохи темніший фон */
+      border: 1px solid #8fb4d8; /* Підсвічення рамки */
+      box-shadow: inset 0px -3px 0px #8fb4d8,
+                  0px 2px 4px rgba(0, 0, 0, 0.1); /* Більша тінь */
+    }
+
+    &.active {
+      background: linear-gradient(180deg, #78a7c8, #c8e2f7 100%); /* Активний фон */
+      border: 1px solid #78a7c8; /* Темніша рамка */
+      box-shadow: inset 0px -5px 0px #78a7c8,
+                  0px 4px 8px rgba(0, 0, 0, 0.2); /* Глибше заглиблення */
+    }
+  }
+}
