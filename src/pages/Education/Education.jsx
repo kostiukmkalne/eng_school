@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import "./Education.scss";
 import { useTranslation } from "react-i18next";
 import { Button } from "../../components/Button/Button.jsx";
