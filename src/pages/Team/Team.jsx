@@ -1,4 +1,3 @@
-import React from "react";
 import "./Team.scss";
 import palms from "../../assets/palms.svg";
 import { useTranslation } from "react-i18next";
