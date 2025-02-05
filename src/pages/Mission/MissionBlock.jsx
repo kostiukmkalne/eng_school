@@ -1,5 +1,5 @@
-import React from "react";
-import './Mission.scss';
+import PropTypes from "prop-types";
+import "./Mission.scss";
 import arrDown from "../../assets/arrBlue.svg";
 
 export const MissionBlock = ({ title, text }) => (
@@ -11,3 +11,8 @@ export const MissionBlock = ({ title, text }) => (
     </div>
   </div>
 );
+
+MissionBlock.propTypes = {
+  title: PropTypes.string.isRequired,
+  text: PropTypes.string.isRequired,
+};

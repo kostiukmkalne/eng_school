@@ -1,4 +1,3 @@
-import React from "react";
 import "./Values.scss";
 import goals from "../../assets/goals.svg";
 import { useTranslation } from "react-i18next";
