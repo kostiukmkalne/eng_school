@@ -1,4 +1,3 @@
-import React from "react";
 import score from "../../assets/companies/score.svg";
 import { useTranslation } from "react-i18next";
 
