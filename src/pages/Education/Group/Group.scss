@@ -1,12 +1,18 @@
 .education__group {
-  display: flex;
+  display: inline-flex;
   flex-direction: row;
-  justify-content: start;
+  justify-content: space-between;
+  width: 100%;
   gap: 40px;
+
+  &-separate {
+    width: 100%;
+  }
 
   &-format {
     display: flex;
     flex-direction: column;
+    width: 100%;
     padding: 40px 40px;
     background-color: #f2f2f2;
     color: #000;
@@ -28,6 +34,7 @@
   &-benefits {
     display: flex;
     flex-direction: column;
+    width: 100%;
     color: #000;
     border-radius: 8px;
     justify-content: space-between;
