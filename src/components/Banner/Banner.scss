@@ -11,15 +11,16 @@
   background-size: cover;
   text-align: left;
 
+
   &__titles {
-    display: flex;
+    display: grid;
     flex-direction: column;
     margin-top: 140px;
   }
 
   &__client {
     display: inline-flex;
-     margin-bottom: 10px;
+    margin-bottom: 10px;
   }
 
   &__stars-img {
@@ -94,7 +95,6 @@
 }
 
 .video {
-
   &__size {
     display: flex;
     height: 540px;
@@ -102,3 +102,4 @@
     border-radius: 12px;
   }
 }
+

@@ -1,58 +1,7 @@
-<svg width="94.000000" height="69.000000" viewBox="0 0 94 69" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="18.000000" height="12.000000" viewBox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 	<desc>
 			Created with Pixso.
 	</desc>
-	<defs>
-		<filter id="filter_245_3968_dd" x="0.000000" y="0.000000" width="94.000000" height="69.000000" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-			<feFlood flood-opacity="0" result="BackgroundImageFix"/>
-			<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-			<feOffset dx="0" dy="1"/>
-			<feGaussianBlur stdDeviation="0.666667"/>
-			<feComposite in2="hardAlpha" operator="out" k2="-1" k3="1"/>
-			<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.051 0"/>
-			<feBlend mode="normal" in2="BackgroundImageFix" result="effect_dropShadow_1"/>
-			<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-			<feOffset dx="0" dy="4"/>
-			<feGaussianBlur stdDeviation="1.33333"/>
-			<feComposite in2="hardAlpha" operator="out" k2="-1" k3="1"/>
-			<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.039 0"/>
-			<feBlend mode="normal" in2="effect_dropShadow_1" result="effect_dropShadow_2"/>
-			<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-			<feOffset dx="0" dy="9"/>
-			<feGaussianBlur stdDeviation="1.66667"/>
-			<feComposite in2="hardAlpha" operator="out" k2="-1" k3="1"/>
-			<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.031 0"/>
-			<feBlend mode="normal" in2="effect_dropShadow_2" result="effect_dropShadow_3"/>
-			<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-			<feOffset dx="0" dy="16"/>
-			<feGaussianBlur stdDeviation="2"/>
-			<feComposite in2="hardAlpha" operator="out" k2="-1" k3="1"/>
-			<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.012 0"/>
-			<feBlend mode="normal" in2="effect_dropShadow_3" result="effect_dropShadow_4"/>
-			<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-			<feOffset dx="0" dy="25"/>
-			<feGaussianBlur stdDeviation="2.33333"/>
-			<feComposite in2="hardAlpha" operator="out" k2="-1" k3="1"/>
-			<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
-			<feBlend mode="normal" in2="effect_dropShadow_4" result="effect_dropShadow_5"/>
-			<feBlend mode="normal" in="SourceGraphic" in2="effect_dropShadow_5" result="shape"/>
-			<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-			<feOffset dx="0" dy="-3"/>
-			<feGaussianBlur stdDeviation="0"/>
-			<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
-			<feColorMatrix type="matrix" values="0 0 0 0 0.20392 0 0 0 0 0.25098 0 0 0 0 0.32941 0 0 0 0.2 0"/>
-			<feBlend mode="normal" in2="shape" result="effect_innerShadow_6"/>
-		</filter>
-		<clipPath id="clip245_3969">
-			<rect id="ic:round-menu" rx="-0.500000" width="23.000000" height="23.000000" transform="translate(35.500000 6.000000)" fill="white" fill-opacity="0"/>
-		</clipPath>
-	</defs>
-	<g filter="url(#filter_245_3968_dd)">
-		<rect id="Small - Dark Outline" rx="9.000000" width="82.000000" height="38.000000" transform="translate(6.000000 0.000000)" fill="#FFFFFF" fill-opacity="1.000000"/>
-		<rect id="ic:round-menu" rx="-0.500000" width="23.000000" height="23.000000" transform="translate(35.500000 6.000000)" fill="#FFFFFF" fill-opacity="0"/>
-		<g clip-path="url(#clip245_3969)">
-			<path id="Vector" d="M39 23.5L55 23.5C55.55 23.5 56 23.04 56 22.5C56 21.95 55.55 21.5 55 21.5L39 21.5C38.44 21.5 38 21.95 38 22.5C38 23.04 38.44 23.5 39 23.5ZM39 18.5L55 18.5C55.55 18.5 56 18.04 56 17.5C56 16.95 55.55 16.5 55 16.5L39 16.5C38.44 16.5 38 16.95 38 17.5C38 18.04 38.44 18.5 39 18.5ZM38 12.5C38 13.04 38.44 13.5 39 13.5L55 13.5C55.55 13.5 56 13.04 56 12.5C56 11.95 55.55 11.5 55 11.5L39 11.5C38.44 11.5 38 11.95 38 12.5Z" fill="#373737" fill-opacity="1.000000" fill-rule="nonzero"/>
-		</g>
-	</g>
-	<rect id="Frame 427321692" rx="8.500000" width="81.000000" height="37.000000" transform="translate(6.500000 0.500000)" stroke="#D6D9DD" stroke-opacity="1.000000" stroke-width="1.000000"/>
+	<defs/>
+	<path id="Vector" d="M1 12L17 12C17.54 12 18 11.54 18 11C18 10.45 17.54 10 17 10L1 10C0.45 10 0 10.45 0 11C0 11.54 0.45 12 1 12ZM1 7L17 7C17.54 7 18 6.54 18 6C18 5.45 17.54 5 17 5L1 5C0.45 5 0 5.45 0 6C0 6.54 0.45 7 1 7ZM0 1C0 1.54 0.45 2 1 2L17 2C17.54 2 18 1.54 18 1C18 0.45 17.54 0 17 0L1 0C0.45 0 0 0.45 0 1Z" fill="#373737" fill-opacity="1.000000" fill-rule="nonzero"/>
 </svg>

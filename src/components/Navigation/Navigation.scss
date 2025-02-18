@@ -32,7 +32,7 @@
   //   }
   // }
 
-  .nav__link {
+  &__link {
     display: flex;
     align-items: center;
     height: 60px;
@@ -45,12 +45,10 @@
     text-decoration: none;
     gap: 7px;
 
-    // Нижнє підкреслення
     &:hover {
       border-bottom: 1.5px solid #373737;
     }
 
-    // Стиль підкреслення при активації
     &:active {
       border-bottom: 2px solid #383838;
     }
